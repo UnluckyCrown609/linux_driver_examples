@@ -1,0 +1,7 @@
+chip "ina219-*"
+    label in0 "voltage_input"
+    label in1 "voltage_output"
+    label power1 "power"
+    label curr1 "current"
+
+    compute curr1 @/10,@/10
